@@ -3,7 +3,6 @@ import pandas as pd
 import seaborn as sns
 import plotly.express as px
 import matplotlib.pyplot as plt
-import base64
 
 st.markdown("""
 <style>
@@ -42,18 +41,6 @@ st.set_page_config(
 
     layout="wide"
                    )
-
-def get_base64_of_file(bin_file):
-    try:
-        with open(bin_file, 'rb') as f:
-            return base64.b64encode(f.read()).decode()
-    except Exception as e:
-        st.error("Error reading file: " + str(e))
-        return None
-
-try:
-    img_base64 = get_base64_of_file('image.jpg')
-    if img_base64 is not None:
         st.markdown(
             f"""
             <style>
