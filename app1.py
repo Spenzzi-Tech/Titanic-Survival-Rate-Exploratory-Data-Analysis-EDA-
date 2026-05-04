@@ -85,10 +85,7 @@ st.markdown(
             """,
             unsafe_allow_html=True
         )
-    else:
-        st.write("Failed to read image file.")
-except FileNotFoundError:
-    st.error("image.jpg not found. Make sure it is in the same folder")
+
 
 
 # Inject CSS
