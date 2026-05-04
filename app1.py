@@ -46,7 +46,7 @@ st.markdown(
             <style>
             /* Main background */
             .stApp {{
-                background-color:  #FFFF00;
+                background-color:  #000000;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
