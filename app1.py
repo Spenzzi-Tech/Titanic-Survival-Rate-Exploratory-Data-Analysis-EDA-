@@ -46,7 +46,6 @@ st.markdown(
             <style>
             /* Main background */
             .stApp {{
-                #--background-image: url("data:image/jpeg;base64,{img_base64}");--#
                 background-color:  #FFFF00;
                 background-size: cover;
                 background-position: center;
