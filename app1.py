@@ -41,7 +41,7 @@ st.set_page_config(
 
     layout="wide"
                    )
-        st.markdown(
+st.markdown(
             f"""
             <style>
             /* Main background */
